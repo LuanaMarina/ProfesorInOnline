@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profesor In Online</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Start Navbar -->
+            <nav class="bg-white">
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
+                    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <img src="images/Profesor-in-online-albastru.png" class="h-8" alt="Logo" />
+                    </a>
+                    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#243770] rounded-lg md:hidden" aria-controls="navbar-default" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                        </svg>
+                    </button>
+                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">
+                                    <img src="images/Header.png" alt="Header">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <!-- End Navbar -->
+
+        <!-- Start Hero Section -->
+            <section class="relative bg-no-repeat bg-cover bg-center" style="background-image: linear-gradient(89.52deg, #0C469C 20.28%, rgba(23, 74, 176, 0.69) 63.95%), url(images/course.png);">
+                <div class="container m-auto grid px-4 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                    <div class="mr-auto lg:col-span-7 place-self-center">
+                        <h1 class="max-w-2xl mb-4 text-[40px]/[44px] font-medium tracking-tight md:text-[56px]/[61.6px] xl:text-[56px]/[61.6px] text-white">
+                            Bine ai venit la 
+                            <span class="font-bold">sectiunea de formare</span>
+                        </h1>
+                        <p class="max-w-2xl mb-6 font-normal text-white text-sm lg:mb-8 md:text-base lg:text-base">
+                            Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. 
+                            Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s, 
+                            When An Unknown Printer Took A Galley Of Type And Scrambled It To Make A Type Specimen Book
+                        </p>
+                        <div class="flex flex-wrap items-center justify-center md:items-start xl:items-start md:justify-start xl:justify-start gap-5">
+                            <a href="#" class="inline-flex px-5 py-3 text-lg/[21.78px] font-semibold text-center text-[#306FCC] rounded-full bg-white">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2 -ms-1">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4C5 2.93913 5.42143 1.92172 6.17157 1.17157C6.92172 0.421427 7.93913 0 9 0C10.0609 0 11.0783 0.421427 11.8284 1.17157C12.5786 1.92172 13 2.93913 13 4C13 5.06087 12.5786 6.07828 11.8284 6.82843C11.0783 7.57857 10.0609 8 9 8C7.93913 8 6.92172 7.57857 6.17157 6.82843C5.42143 6.07828 5 5.06087 5 4ZM5 10C3.67392 10 2.40215 10.5268 1.46447 11.4645C0.526784 12.4021 0 13.6739 0 15C0 15.7956 0.316071 16.5587 0.87868 17.1213C1.44129 17.6839 2.20435 18 3 18H15C15.7956 18 16.5587 17.6839 17.1213 17.1213C17.6839 16.5587 18 15.7956 18 15C18 13.6739 17.4732 12.4021 16.5355 11.4645C15.5979 10.5268 14.3261 10 13 10H5Z" fill="#306FCC"/>
+                                </svg>
+                                Creeaza Cont
+                            </a>
+                            <a href="#" class="inline-flex px-5 py-3 text-lg/[21.78px] font-semibold text-center text-white rounded-full border-2 mt-[17px] md:mt-0 xl:mt-0">
+                                <svg width="18" height="18" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2 -ms-1">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0C6.20435 0 5.44129 0.316071 4.87868 0.87868C4.31607 1.44129 4 2.20435 4 3V17C4 17.7956 4.31607 18.5587 4.87868 19.1213C5.44129 19.6839 6.20435 20 7 20H13C13.7956 20 14.5587 19.6839 15.1213 19.1213C15.6839 18.5587 16 17.7956 16 17V3C16 2.20435 15.6839 1.44129 15.1213 0.87868C14.5587 0.316071 13.7956 0 13 0H7ZM8.293 6.293C8.48053 6.10553 8.73484 6.00021 9 6.00021C9.26516 6.00021 9.51947 6.10553 9.707 6.293L12.707 9.293C12.8945 9.48053 12.9998 9.73484 12.9998 10C12.9998 10.2652 12.8945 10.5195 12.707 10.707L9.707 13.707C9.5184 13.8892 9.2658 13.99 9.0036 13.9877C8.7414 13.9854 8.49059 13.8802 8.30518 13.6948C8.11977 13.5094 8.0146 13.2586 8.01233 12.9964C8.01005 12.7342 8.11084 12.4816 8.293 12.293L9.586 11H1C0.734784 11 0.48043 10.8946 0.292893 10.7071C0.105357 10.5196 0 10.2652 0 10C0 9.73478 0.105357 9.48043 0.292893 9.29289C0.48043 9.10536 0.734784 9 1 9H9.586L8.293 7.707C8.10553 7.51947 8.00021 7.26516 8.00021 7C8.00021 6.73484 8.10553 6.48053 8.293 6.293Z" fill="white"/>
+                                </svg>
+                                Intra In Cont
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End Hero Section -->
+
+        <!-- Start Course Section -->
+            <div class="container mx-auto my-[50px]">
+                <a href="#" class="flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="md:w-8 xl:w-8 md:h-8 xl:h-8">
+                        <path d="M13.3333 0H18.6667V5.33333H13.3333V0ZM0 0H5.33333V5.33333H0V0ZM26.6667 0H32V5.33333H26.6667V0ZM13.3333 13.3333H18.6667V18.6667H13.3333V13.3333ZM0 13.3333H5.33333V18.6667H0V13.3333ZM26.6667 13.3333H32V18.6667H26.6667V13.3333ZM13.3333 26.6667H18.6667V32H13.3333V26.6667ZM0 26.6667H5.33333V32H0V26.6667ZM26.6667 26.6667H32V32H26.6667V26.6667Z" fill="#0EB582"/>
+                    </svg> 
+                </a>
+                <h2 class="font-bold text-[32px]/[35.2px] text-center pt-[17px]">Curs - profesor in online</h2>
+            </div>
+            <!-- Start Modules Section -->
+                <div class="container m-auto grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-[33.64px] mt-[33px]">
+                    <div class="max-w-sm bg-white rounded-lg mx-5">
+                        <div class="relative">
+                            <img class="rounded-lg" src="images/single-image1.png" alt="Module" />
+                            <span class="absolute bottom-0 right-0 bg-[#306FCCCC] text-white text-sm/[16.94px] font-medium px-2.5 py-0.5 md:text-base/[19.36px] xl:text-base/[19.36px] rounded-tl-lg rounded-br-lg">Modul 1</span>
+                        </div>
+                        <div class="p-5 text-center">
+                            <a href="#">
+                                <h5 class="mb-2 text-lg/[22.5px] font-bold tracking-tight text-[#333333] md:text-[22px]/[27.5px] xl:text-[22px]/[27.5px]">Introducerea in cursul de profesori online</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-[#333333] text-xs/[18px] md:text-sm/[21px] xl:text-sm/[21px]">
+                                Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. 
+                                Lorem Ipsum Has Been The Industry's Standard Dummy Text
+                            </p>
+                            <p class="font-semibold text-xs/[14.52px] text-[#333333] md:text-sm/[16.94px] xl:text-sm/[16.94px] pb-[13px]">
+                                Durata:
+                                <span class="font-semibold text-[22px]/[26.63px] md:text-[22px]/[26.63px] xl:text-[22px]/[26.63px] text-[#306FCC]">2</span>
+                                <span class="font-semibold text-xs/[14.52px] md:text-sm/[16.94px] xl:text-sm/[16.94px] text-[#306FCC]">hrs</span>
+                            </p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm/[16.94px] md:text-lg/[21.78px] xl:text-lg/[21.78px] font-medium text-white bg-[#306FCC] rounded-full">
+                                Incepe acum
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm bg-white rounded-lg mx-5">
+                        <div class="relative">
+                            <img class="rounded-lg" src="images/single-image2.png" alt="Module" />
+                            <span class="absolute bottom-0 right-0 bg-[#306FCCCC] text-white text-sm/[16.94px] font-medium px-2.5 py-0.5 md:text-base/[19.36px] xl:text-base/[19.36px] rounded-tl-lg rounded-br-lg">Modul 2</span>
+                        </div>
+                        <div class="p-5 text-center">
+                            <a href="#">
+                                <h5 class="mb-2 text-lg/[22.5px] font-bold tracking-tight text-[#333333] md:text-[22px]/[27.5px] xl:text-[22px]/[27.5px]">Rolul competentelor digitale in dezvoltarea cadrelor didactice</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-[#333333] text-xs/[18px] md:text-sm/[21px] xl:text-sm/[21px]">
+                                Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. 
+                                Lorem Ipsum Has Been The Industry's Standard Dummy Text
+                            </p>
+                            <p class="font-semibold text-xs/[14.52px] text-[#333333] md:text-sm/[16.94px] xl:text-sm/[16.94px] pb-[13px]">
+                                Durata:
+                                <span class="font-semibold text-[22px]/[26.63px] md:text-[22px]/[26.63px] xl:text-[22px]/[26.63px] text-[#306FCC]">2</span>
+                                <span class="font-semibold text-xs/[14.52px] md:text-sm/[16.94px] xl:text-sm/[16.94px] text-[#306FCC]">hrs</span>
+                            </p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm/[16.94px] md:text-lg/[21.78px] xl:text-lg/[21.78px] font-medium text-white bg-[#B4B4B4] rounded-full">
+                                Incepe acum
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm bg-white rounded-lg mx-5">
+                        <div class="relative">
+                            <img class="rounded-lg" src="images/single_course2.png" alt="Module" />
+                            <span class="absolute bottom-0 right-0 bg-[#306FCCCC] text-white text-sm/[16.94px] font-medium px-2.5 py-0.5 md:text-base/[19.36px] xl:text-base/[19.36px] rounded-tl-lg rounded-br-lg">Modul 3</span>
+                        </div>
+                        <div class="p-5 text-center">
+                            <a href="#">
+                                <h5 class="mb-2 text-lg/[22.5px] font-bold tracking-tight text-[#333333] md:text-[22px]/[27.5px] xl:text-[22px]/[27.5px]">Predarea, invatarea si ghidarea cu tehnologiile digitale</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-[#333333] text-xs/[18px] md:text-sm/[21px] xl:text-sm/[21px]">
+                                Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. 
+                                Lorem Ipsum Has Been The Industry's Standard Dummy Text
+                            </p>
+                            <p class="font-semibold text-xs/[14.52px] text-[#333333] md:text-sm/[16.94px] xl:text-sm/[16.94px] pb-[13px]">
+                                Durata:
+                                <span class="font-semibold text-[22px]/[26.63px] md:text-[22px]/[26.63px] xl:text-[22px]/[26.63px] text-[#306FCC]">2</span>
+                                <span class="font-semibold text-xs/[14.52px] md:text-sm/[16.94px] xl:text-sm/[16.94px] text-[#306FCC]">hrs</span>
+                            </p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm/[16.94px] md:text-lg/[21.78px] xl:text-lg/[21.78px] font-medium text-white bg-[#B4B4B4] rounded-full">
+                                Incepe acum
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm bg-white rounded-lg mx-5">
+                        <div class="relative">
+                            <img class="rounded-lg" src="images/single_course4.png" alt="Module" />
+                            <span class="absolute bottom-0 right-0 bg-[#306FCCCC] text-white text-sm/[16.94px] font-medium px-2.5 py-0.5 md:text-base/[19.36px] xl:text-base/[19.36px] rounded-tl-lg rounded-br-lg">Modul 4</span>
+                        </div>
+                        <div class="p-5 text-center">
+                            <a href="#">
+                                <h5 class="mb-2 text-lg/[22.5px] font-bold tracking-tight text-[#333333] md:text-[22px]/[27.5px] xl:text-[22px]/[27.5px]">Evaluarea cu tehnologii digitale</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-[#333333] text-xs/[18px] md:text-sm/[21px] xl:text-sm/[21px]">
+                                Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. 
+                                Lorem Ipsum Has Been The Industry's Standard Dummy Text
+                            </p>
+                            <p class="font-semibold text-xs/[14.52px] text-[#333333] md:text-sm/[16.94px] xl:text-sm/[16.94px] pb-[13px]">
+                                Durata:
+                                <span class="font-semibold text-[22px]/[26.63px] md:text-[22px]/[26.63px] xl:text-[22px]/[26.63px] text-[#306FCC]">2</span>
+                                <span class="font-semibold text-xs/[14.52px] md:text-sm/[16.94px] xl:text-sm/[16.94px] text-[#306FCC]">hrs</span>
+                            </p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm/[16.94px] md:text-lg/[21.78px] xl:text-lg/[21.78px] font-medium text-white bg-[#B4B4B4] rounded-full">
+                                Incepe acum
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm bg-white rounded-lg mx-5">
+                        <div class="relative">
+                            <img class="rounded-lg" src="images/single-image5.png" alt="Module" />
+                            <span class="absolute bottom-0 right-0 bg-[#306FCCCC] text-white text-sm/[16.94px] font-medium px-2.5 py-0.5 md:text-base/[19.36px] xl:text-base/[19.36px] rounded-tl-lg rounded-br-lg">Modul 5</span>
+                        </div>
+                        <div class="p-5 text-center">
+                            <a href="#">
+                                <h5 class="mb-2 text-lg/[22.5px] font-bold tracking-tight text-[#333333] md:text-[22px]/[27.5px] xl:text-[22px]/[27.5px]">Dezvoltarea competentelor digitale pentru invatarea activa</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-[#333333] text-xs/[18px] md:text-sm/[21px] xl:text-sm/[21px]">
+                                Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. 
+                                Lorem Ipsum Has Been The Industry's Standard Dummy Text
+                            </p>
+                            <p class="font-semibold text-xs/[14.52px] text-[#333333] md:text-sm/[16.94px] xl:text-sm/[16.94px] pb-[13px]">
+                                Durata:
+                                <span class="font-semibold text-[22px]/[26.63px] md:text-[22px]/[26.63px] xl:text-[22px]/[26.63px] text-[#306FCC]">2</span>
+                                <span class="font-semibold text-xs/[14.52px] md:text-sm/[16.94px] xl:text-sm/[16.94px] text-[#306FCC]">hrs</span>
+                            </p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm/[16.94px] md:text-lg/[21.78px] xl:text-lg/[21.78px] font-medium text-white bg-[#B4B4B4] rounded-full">
+                                Incepe acum
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm bg-white rounded-lg mx-5">
+                        <div class="relative">
+                            <img class="rounded-lg" src="images/single-image6.png" alt="Module" />
+                            <span class="absolute bottom-0 right-0 bg-[#306FCCCC] text-white text-sm/[16.94px] font-medium px-2.5 py-0.5 md:text-base/[19.36px] xl:text-base/[19.36px] rounded-tl-lg rounded-br-lg">Modul 6</span>
+                        </div>
+                        <div class="p-5 text-center">
+                            <a href="#">
+                                <h5 class="mb-2 text-lg/[22.5px] font-bold tracking-tight text-[#333333] md:text-[22px]/[27.5px] xl:text-[22px]/[27.5px]">Noile tehnologii si rolul lor in educatie</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-[#333333] text-xs/[18px] md:text-sm/[21px] xl:text-sm/[21px]">
+                                Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. 
+                                Lorem Ipsum Has Been The Industry's Standard Dummy Text
+                            </p>
+                            <p class="font-semibold text-xs/[14.52px] text-[#333333] md:text-sm/[16.94px] xl:text-sm/[16.94px] pb-[13px]">
+                                Durata:
+                                <span class="font-semibold text-[22px]/[26.63px] md:text-[22px]/[26.63px] xl:text-[22px]/[26.63px] text-[#306FCC]">2</span>
+                                <span class="font-semibold text-xs/[14.52px] md:text-sm/[16.94px] xl:text-sm/[16.94px] text-[#306FCC]">hrs</span>
+                            </p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm/[16.94px] md:text-lg/[21.78px] xl:text-lg/[21.78px] font-medium text-white bg-[#B4B4B4] rounded-full">
+                                Incepe acum
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm bg-white rounded-lg mx-5">
+                        <div class="relative">
+                            <img class="rounded-lg" src="images/single_course1.png" alt="Module" />
+                            <span class="absolute bottom-0 right-0 bg-[#306FCCCC] text-white text-sm/[16.94px] font-medium px-2.5 py-0.5 md:text-base/[19.36px] xl:text-base/[19.36px] rounded-tl-lg rounded-br-lg">Modul 7</span>
+                        </div>
+                        <div class="p-5 text-center">
+                            <a href="#">
+                                <h5 class="mb-2 text-lg/[22.5px] font-bold tracking-tight text-[#333333] md:text-[22px]/[27.5px] xl:text-[22px]/[27.5px]">Incheiere curs</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-[#333333] text-xs/[18px] md:text-sm/[21px] xl:text-sm/[21px]">
+                                Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. 
+                                Lorem Ipsum Has Been The Industry's Standard Dummy Text
+                            </p>
+                            <p class="font-semibold text-xs/[14.52px] text-[#333333] md:text-sm/[16.94px] xl:text-sm/[16.94px] pb-[13px]">
+                                Durata:
+                                <span class="font-semibold text-[22px]/[26.63px] md:text-[22px]/[26.63px] xl:text-[22px]/[26.63px] text-[#306FCC]">2</span>
+                                <span class="font-semibold text-xs/[14.52px] md:text-sm/[16.94px] xl:text-sm/[16.94px] text-[#306FCC]">hrs</span>
+                            </p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm/[16.94px] md:text-lg/[21.78px] xl:text-lg/[21.78px] font-medium text-white bg-[#B4B4B4] rounded-full">
+                                Incepe acum
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <!-- End Modules Section -->
+        <!-- End Course Section -->
+
+        <!-- Start Quotes Section -->
+            <div class="container mx-auto">
+                <a href="#" class="flex items-center justify-center">
+                    <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="md:w-[34px] xl:w-[34px] md:h-8 xl:h-8">
+                        <path d="M25.0138 3.76157L13.4578 0.0717698C13.1618 -0.0239233 12.8413 -0.0239233 12.5453 0.0717698L0.98927 3.76157C0.713531 3.84905 0.47173 4.01413 0.295428 4.23525C0.119127 4.45638 0.0165151 4.72328 0.000987798 5.00112C-0.000329266 5.02531 -0.000329266 5.04956 0.000987798 5.07376V14.2983C0.000987798 14.6652 0.153176 15.0172 0.424074 15.2767C0.694971 15.5362 1.06239 15.6819 1.44549 15.6819C1.8286 15.6819 2.19602 15.5362 2.46691 15.2767C2.73781 15.0172 2.89 14.6652 2.89 14.2983V6.99361L5.7441 7.90453C4.85833 9.52861 4.5951 11.3988 5.00024 13.1896C5.40538 14.9804 6.45322 16.5784 7.96142 17.7056C5.98777 18.6378 4.31744 20.0688 3.13075 21.8439C3.02388 21.9961 2.94966 22.167 2.91238 22.3469C2.8751 22.5267 2.87552 22.7119 2.91361 22.8916C2.95169 23.0713 3.02669 23.242 3.13424 23.3937C3.24179 23.5454 3.37975 23.6751 3.54009 23.7753C3.70043 23.8755 3.87996 23.9441 4.06825 23.9772C4.25653 24.0104 4.44981 24.0073 4.63686 23.9683C4.8239 23.9292 5.00097 23.8549 5.15778 23.7498C5.3146 23.6446 5.44802 23.5106 5.5503 23.3556C7.26805 20.8235 9.99215 19.3717 13.0015 19.3717C16.0109 19.3717 18.735 20.8235 20.4588 23.3556C20.5611 23.5106 20.6945 23.6446 20.8513 23.7498C21.0081 23.8549 21.1852 23.9292 21.3722 23.9683C21.5593 24.0073 21.7526 24.0104 21.9408 23.9772C22.1291 23.9441 22.3087 23.8755 22.469 23.7753C22.6293 23.6751 22.7673 23.5454 22.8748 23.3937C22.9824 23.242 23.0574 23.0713 23.0955 22.8916C23.1336 22.7119 23.134 22.5267 23.0967 22.3469C23.0594 22.167 22.9852 21.9961 22.8783 21.8439C21.6905 20.0667 20.018 18.6345 18.0417 17.7021C19.5498 16.575 20.5977 14.9769 21.0028 13.1861C21.408 11.3953 21.1447 9.52516 20.259 7.90107L25.0138 6.38248C25.3011 6.29043 25.5508 6.1142 25.7278 5.87873C25.9048 5.64325 26 5.36045 26 5.0703C26 4.78015 25.9048 4.49734 25.7278 4.26187C25.5508 4.0264 25.3011 3.85017 25.0138 3.75811V3.76157ZM13.0015 2.83912L19.9893 5.07376L13.0015 7.30494L6.01976 5.07376L13.0015 2.83912ZM18.2981 11.5309C18.2982 12.319 18.1067 13.0962 17.7388 13.801C17.3708 14.5059 16.8365 15.1189 16.1782 15.5915C15.5199 16.0642 14.7557 16.3834 13.9463 16.524C13.1368 16.6645 12.3042 16.6225 11.5146 16.4013C10.725 16.1801 10.0001 15.7857 9.39724 15.2494C8.79442 14.7132 8.3303 14.0498 8.04168 13.3118C7.75305 12.5739 7.64785 11.7817 7.73442 10.998C7.82099 10.2143 8.09695 9.46075 8.54042 8.797L12.5453 10.0757C12.8413 10.1711 13.1618 10.1711 13.4578 10.0757L17.4626 8.797C18.0089 9.61278 18.2989 10.5617 18.2981 11.5309Z" fill="#0EB582"/>
+                    </svg>
+                </a>
+                <h2 class="font-bold text-[26px]/[28.6px] md:text-[32px]/[35.2px] xl:text-[32px]/[35.2px] text-[#333333] text-center pt-[18px] pb-[50px]">Ce spun studentii nostri</h2>
+            </div>
+            <!-- Start BlockQuote Section -->
+                <div class="container m-auto grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-[21px]">
+                    <div class="block max-w-sm bg-white rounded-lg border-2 border-[#4487EA] p-[22px] mx-5 md:mx-0 xl:mx-0">
+                        <a href="#">
+                            <figure class="max-w-screen-xl mx-auto">
+                                <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-[14px] mt-[22px] ml-[28px] md:mb-[29px] xl:mb-[29px]">
+                                    <path d="M39.6001 40C40.767 40 41.8862 39.5317 42.7113 38.6983C43.5364 37.8648 44 36.7343 44 35.5556V24.7022C44 23.5235 43.5364 22.393 42.7113 21.5595C41.8862 20.726 40.767 20.2578 39.6001 20.2578H33.493C33.493 18.6963 33.5839 17.1348 33.7658 15.5733C34.0386 13.92 34.4932 12.4504 35.1298 11.1644C35.7663 9.87852 36.5861 8.86667 37.5893 8.12889C38.5866 7.30222 39.8597 6.88889 41.4085 6.88889V0C38.8624 0 36.6331 0.551111 34.7206 1.65333C32.8213 2.74167 31.1895 4.24869 29.9467 6.06222C28.6954 8.05844 27.774 10.247 27.2187 12.5422C26.6572 15.0744 26.3826 17.6629 26.4003 20.2578V35.5556C26.4003 36.7343 26.8639 37.8648 27.689 38.6983C28.5142 39.5317 29.6333 40 30.8002 40H39.6001ZM13.2006 40C14.3675 40 15.4866 39.5317 16.3118 38.6983C17.1369 37.8648 17.6005 36.7343 17.6005 35.5556V24.7022C17.6005 23.5235 17.1369 22.393 16.3118 21.5595C15.4866 20.726 14.3675 20.2578 13.2006 20.2578H7.09347C7.09347 18.6963 7.1844 17.1348 7.36627 15.5733C7.642 13.92 8.09666 12.4504 8.73024 11.1644C9.36677 9.87852 10.1866 8.86667 11.1898 8.12889C12.1871 7.30222 13.4602 6.88889 15.0089 6.88889V0C12.4628 0 10.2335 0.551111 8.32105 1.65333C6.42179 2.74167 4.79 4.24869 3.54714 6.06222C2.29585 8.05844 1.37449 10.247 0.819188 12.5422C0.257685 15.0744 -0.0168748 17.6629 0.000802082 20.2578V35.5556C0.000802082 36.7343 0.464364 37.8648 1.28951 38.6983C2.11465 39.5317 3.23379 40 4.40072 40H13.2006Z" fill="#3271CF" fill-opacity="0.4"/>
+                                </svg>
+                                <blockquote>
+                                    <p class="text-sm/[22.4px] italic font-normal text-[#333333] md:text-base/[25.6px] xl:text-base/[25.6px]">
+                                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. 
+                                        Mauris Non Massa Et Nisl Tincidunt Porta Eu Ac Est. 
+                                        Etiam Ac Velit Venenatis, Ultricies Turpis Tristique, Commodo Ex. 
+                                        Pellentesque Eget Pulvinar Lacus, Sed Commodo Tortor. 
+                                        Nunc Bibendum Vitae Nunc Ac Laoreet. 
+                                        Phasellus Eu Ex Vitae Ante Feugiat Dignissim.
+                                    </p>
+                                </blockquote>
+                                <figcaption class="flex items-center justify-start mt-6 space-x-3 rtl:space-x-reverse">
+                                    <img class="w-14 h-14 rounded-full" src="images/Andrei.png" alt="Profile Picture">
+                                    <div class="flex items-center">
+                                        <cite class="pe-3 font-bold text-lg/[27px] font-['Open_Sans'] text-[#333333] not-italic">Andrei</cite>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="block max-w-sm bg-white rounded-lg border-2 border-[#4487EA] p-[22px] mx-5 md:mx-0 xl:mx-0">
+                        <a href="#">
+                            <figure class="max-w-screen-xl mx-auto">
+                                <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-[14px] mt-[22px] ml-[28px] md:mb-[29px] xl:mb-[29px]">
+                                    <path d="M39.6001 40C40.767 40 41.8862 39.5317 42.7113 38.6983C43.5364 37.8648 44 36.7343 44 35.5556V24.7022C44 23.5235 43.5364 22.393 42.7113 21.5595C41.8862 20.726 40.767 20.2578 39.6001 20.2578H33.493C33.493 18.6963 33.5839 17.1348 33.7658 15.5733C34.0386 13.92 34.4932 12.4504 35.1298 11.1644C35.7663 9.87852 36.5861 8.86667 37.5893 8.12889C38.5866 7.30222 39.8597 6.88889 41.4085 6.88889V0C38.8624 0 36.6331 0.551111 34.7206 1.65333C32.8213 2.74167 31.1895 4.24869 29.9467 6.06222C28.6954 8.05844 27.774 10.247 27.2187 12.5422C26.6572 15.0744 26.3826 17.6629 26.4003 20.2578V35.5556C26.4003 36.7343 26.8639 37.8648 27.689 38.6983C28.5142 39.5317 29.6333 40 30.8002 40H39.6001ZM13.2006 40C14.3675 40 15.4866 39.5317 16.3118 38.6983C17.1369 37.8648 17.6005 36.7343 17.6005 35.5556V24.7022C17.6005 23.5235 17.1369 22.393 16.3118 21.5595C15.4866 20.726 14.3675 20.2578 13.2006 20.2578H7.09347C7.09347 18.6963 7.1844 17.1348 7.36627 15.5733C7.642 13.92 8.09666 12.4504 8.73024 11.1644C9.36677 9.87852 10.1866 8.86667 11.1898 8.12889C12.1871 7.30222 13.4602 6.88889 15.0089 6.88889V0C12.4628 0 10.2335 0.551111 8.32105 1.65333C6.42179 2.74167 4.79 4.24869 3.54714 6.06222C2.29585 8.05844 1.37449 10.247 0.819188 12.5422C0.257685 15.0744 -0.0168748 17.6629 0.000802082 20.2578V35.5556C0.000802082 36.7343 0.464364 37.8648 1.28951 38.6983C2.11465 39.5317 3.23379 40 4.40072 40H13.2006Z" fill="#3271CF" fill-opacity="0.4"/>
+                                </svg>
+                                <blockquote>
+                                    <p class="text-sm/[22.4px] italic font-normal text-[#333333] md:text-base/[25.6px] xl:text-base/[25.6px]">
+                                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. 
+                                        Mauris Non Massa Et Nisl Tincidunt Porta Eu Ac Est. 
+                                        Etiam Ac Velit Venenatis, Ultricies Turpis Tristique, Commodo Ex. 
+                                        Pellentesque Eget Pulvinar Lacus, Sed Commodo Tortor. 
+                                        Nunc Bibendum Vitae Nunc Ac Laoreet. 
+                                        Phasellus Eu Ex Vitae Ante Feugiat Dignissim. 
+                                        Mauris Feugiat Urna Turpis, Sed Pellentesque Mi Vestibulum Sed. 
+                                        Nam Libero Lorem
+                                    </p>
+                                </blockquote>
+                                <figcaption class="flex items-center justify-start mt-6 space-x-3 rtl:space-x-reverse">
+                                    <img class="w-14 h-14 rounded-full" src="images/Miruna.png" alt="Profile Picture">
+                                    <div class="flex items-center">
+                                        <cite class="pe-3 font-bold text-lg font-['Open_Sans'] text-[#333333] not-italic">Miruna</cite>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="block max-w-sm bg-white rounded-lg border-2 border-[#4487EA] p-[22px] mx-5 md:mx-0 xl:mx-0">
+                        <a href="#">
+                            <figure class="max-w-screen-xl mx-auto">
+                                <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-[14px] mt-[22px] ml-[28px] md:mb-[29px] xl:mb-[29px]">
+                                    <path d="M39.6001 40C40.767 40 41.8862 39.5317 42.7113 38.6983C43.5364 37.8648 44 36.7343 44 35.5556V24.7022C44 23.5235 43.5364 22.393 42.7113 21.5595C41.8862 20.726 40.767 20.2578 39.6001 20.2578H33.493C33.493 18.6963 33.5839 17.1348 33.7658 15.5733C34.0386 13.92 34.4932 12.4504 35.1298 11.1644C35.7663 9.87852 36.5861 8.86667 37.5893 8.12889C38.5866 7.30222 39.8597 6.88889 41.4085 6.88889V0C38.8624 0 36.6331 0.551111 34.7206 1.65333C32.8213 2.74167 31.1895 4.24869 29.9467 6.06222C28.6954 8.05844 27.774 10.247 27.2187 12.5422C26.6572 15.0744 26.3826 17.6629 26.4003 20.2578V35.5556C26.4003 36.7343 26.8639 37.8648 27.689 38.6983C28.5142 39.5317 29.6333 40 30.8002 40H39.6001ZM13.2006 40C14.3675 40 15.4866 39.5317 16.3118 38.6983C17.1369 37.8648 17.6005 36.7343 17.6005 35.5556V24.7022C17.6005 23.5235 17.1369 22.393 16.3118 21.5595C15.4866 20.726 14.3675 20.2578 13.2006 20.2578H7.09347C7.09347 18.6963 7.1844 17.1348 7.36627 15.5733C7.642 13.92 8.09666 12.4504 8.73024 11.1644C9.36677 9.87852 10.1866 8.86667 11.1898 8.12889C12.1871 7.30222 13.4602 6.88889 15.0089 6.88889V0C12.4628 0 10.2335 0.551111 8.32105 1.65333C6.42179 2.74167 4.79 4.24869 3.54714 6.06222C2.29585 8.05844 1.37449 10.247 0.819188 12.5422C0.257685 15.0744 -0.0168748 17.6629 0.000802082 20.2578V35.5556C0.000802082 36.7343 0.464364 37.8648 1.28951 38.6983C2.11465 39.5317 3.23379 40 4.40072 40H13.2006Z" fill="#3271CF" fill-opacity="0.4"/>
+                                </svg>
+                                <blockquote>
+                                    <p class="text-sm/[22.4px] italic font-normal text-[#333333] md:text-base/[25.6px] xl:text-base/[25.6px]">
+                                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. 
+                                        Mauris Non Massa Et Nisl Tincidunt Porta Eu Ac Est. 
+                                        Etiam Ac Velit Venenatis, Ultricies Turpis Tristique, Commodo Ex. 
+                                        Pellentesque Eget Pulvinar Lacus, Sed Commodo Tortor. 
+                                        Nunc Bibendum Vitae Nunc Ac Laoreet. 
+                                        Phasellus Eu Ex Vitae Ante Feugiat Dignissim. 
+                                        Mauris Feugiat Urna Turpis, Sed Pellentesque Mi Vestibulum Sed. 
+                                        Nam Libero Lorem
+                                    </p>
+                                </blockquote>
+                                <figcaption class="flex items-center justify-start mt-6 space-x-3 rtl:space-x-reverse">
+                                    <img class="w-14 h-14 rounded-full" src="images/Catalin.png" alt="Profile Picture">
+                                    <div class="flex items-center">
+                                        <cite class="pe-3 font-bold text-lg font-['Open_Sans'] text-[#333333] not-italic">Catalin</cite>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex xl:flex md:flex-wrap xl:flex-wrap md:items-center xl:items-center md:justify-center xl:justify-center md:space-x-[38px] xl:space-x-[38px] md:mt-[56px] xl:mt-[38px]">
+                    <svg width="32" height="26" viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.204019 12.5159L12.7255 0.200508C12.8561 0.0721266 13.0331 2.15656e-06 13.2177 2.1727e-06C13.4023 2.18884e-06 13.5793 0.0721267 13.7099 0.200508C13.8404 0.32889 13.9137 0.503014 13.9137 0.684573C13.9137 0.866133 13.8404 1.04026 13.7099 1.16864L2.37616 12.3158L31.3044 12.3158C31.4889 12.3158 31.6658 12.3879 31.7963 12.5162C31.9267 12.6445 32 12.8185 32 13C32 13.1815 31.9267 13.3555 31.7963 13.4838C31.6658 13.6121 31.4889 13.6842 31.3044 13.6842L2.37616 13.6842L13.7099 24.8314C13.8404 24.9597 13.9137 25.1339 13.9137 25.3154C13.9137 25.497 13.8404 25.6711 13.7099 25.7995C13.5793 25.9279 13.4023 26 13.2177 26C13.0331 26 12.8561 25.9279 12.7255 25.7995L0.204019 13.4841C0.139341 13.4205 0.0880291 13.3451 0.0530216 13.262C0.0180141 13.1789 -2.68606e-06 13.0899 -2.6782e-06 13C-2.67034e-06 12.9101 0.0180142 12.8211 0.0530216 12.738C0.0880291 12.6549 0.139341 12.5795 0.204019 12.5159Z" fill="#0073E6"/>
+                    </svg>
+                    <svg width="31" height="26" viewBox="0 0 31 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30.8024 13.4841L18.6721 25.7995C18.5457 25.9279 18.3742 26 18.1953 26C18.0165 26 17.845 25.9279 17.7186 25.7995C17.5921 25.6711 17.5211 25.497 17.5211 25.3154C17.5211 25.1339 17.5921 24.9597 17.7186 24.8314L28.6981 13.6842H0.673902C0.495172 13.6842 0.323762 13.6121 0.197381 13.4838C0.0710003 13.3555 0 13.1815 0 13C0 12.8185 0.0710003 12.6445 0.197381 12.5162C0.323762 12.3879 0.495172 12.3158 0.673902 12.3158H28.6981L17.7186 1.16864C17.5921 1.04025 17.5211 0.86613 17.5211 0.684571C17.5211 0.503011 17.5921 0.328888 17.7186 0.200506C17.845 0.0721245 18.0165 3.57897e-09 18.1953 0C18.3742 -3.57897e-09 18.5457 0.0721239 18.6721 0.200506L30.8024 12.5159C30.865 12.5795 30.9147 12.6549 30.9486 12.738C30.9825 12.8211 31 12.9101 31 13C31 13.0899 30.9825 13.1789 30.9486 13.262C30.9147 13.3451 30.865 13.4205 30.8024 13.4841Z" fill="#0073E6"/>
+                    </svg>
+                </div>
+            <!-- End BlockQuote Section -->
+        <!-- End Quotes Section -->
+
+        <!-- Start Success Section -->
+            <div class="container mx-auto">
+                <a href="#" class="flex items-center justify-center mt-[60px] md:mt-[129px] xl:mt-[129px]">
+                    <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg" class="md:w-[31px] xl:w-[31px] md:h-[32px] xl:h-[32px]">
+                        <path d="M10.4941 16.1924C10.9063 16.1925 11.3036 16.3531 11.6087 16.6431C11.9138 16.933 12.1047 17.3315 12.1443 17.7608L12.152 17.9273V20.2405C12.1521 20.6862 11.9883 21.1148 11.6946 21.4374C11.4008 21.7601 10.9997 21.9521 10.5744 21.9737C10.149 21.9953 9.73201 21.8447 9.40986 21.5533C9.0877 21.2618 8.88507 20.8518 8.84398 20.4082L8.83624 20.2405V17.9273C8.83624 17.4672 9.01091 17.0259 9.32182 16.7006C9.63274 16.3752 10.0544 16.1924 10.4941 16.1924ZM6.4754 0.0520472C6.90188 0.163748 7.26851 0.448141 7.49464 0.842678C7.72077 1.23722 7.78789 1.70959 7.68124 2.15591L3.26019 20.6615C3.14834 21.102 2.87536 21.4787 2.50025 21.7103C2.12515 21.9418 1.67803 22.0096 1.25554 21.899C0.83305 21.7884 0.469115 21.5083 0.242388 21.1192C0.0156609 20.7301 -0.0556482 20.2632 0.0438714 19.8195L4.46492 1.3139C4.57167 0.867605 4.84344 0.483951 5.22046 0.247316C5.59748 0.0106801 6.04889 -0.0595587 6.4754 0.0520472ZM16.5233 1.3139L20.9444 19.8195C21.0008 20.0418 21.0145 20.2736 20.9846 20.5014C20.9546 20.7292 20.8817 20.9485 20.7701 21.1466C20.6584 21.3446 20.5102 21.5175 20.3342 21.6551C20.1581 21.7927 19.9577 21.8923 19.7445 21.9481C19.5313 22.0039 19.3096 22.0148 19.0924 21.9802C18.8751 21.9456 18.6666 21.8661 18.479 21.7464C18.2914 21.6266 18.1284 21.4691 17.9995 21.2829C17.8705 21.0966 17.7783 20.8854 17.7281 20.6615L13.307 2.15591C13.2075 1.71222 13.2788 1.24538 13.5055 0.85627C13.7323 0.467158 14.0962 0.187029 14.5187 0.0764245C14.9412 -0.0341803 15.3883 0.033622 15.7634 0.265178C16.1385 0.496734 16.4115 0.873446 16.5233 1.3139ZM10.4941 8.09622C10.9338 8.09622 11.3555 8.279 11.6664 8.60436C11.9774 8.92972 12.152 9.371 12.152 9.83112V12.1443C12.152 12.6045 11.9774 13.0457 11.6664 13.3711C11.3555 13.6964 10.9338 13.8792 10.4941 13.8792C10.0544 13.8792 9.63274 13.6964 9.32182 13.3711C9.01091 13.0457 8.83624 12.6045 8.83624 12.1443V9.83112C8.83624 9.371 9.01091 8.92972 9.32182 8.60436C9.63274 8.279 10.0544 8.09622 10.4941 8.09622ZM10.4941 0C10.9063 2.07016e-05 11.3036 0.160675 11.6087 0.450634C11.9138 0.740593 12.1047 1.13907 12.1443 1.56835L12.152 1.7349V4.04811C12.1521 4.49375 11.9883 4.92233 11.6946 5.24501C11.4008 5.56769 10.9997 5.75971 10.5744 5.78128C10.149 5.80284 9.73201 5.65229 9.40986 5.36084C9.0877 5.06938 8.88507 4.65938 8.84398 4.21582L8.83624 4.04811V1.7349C8.83624 1.27478 9.01091 0.833499 9.32182 0.508142C9.63274 0.182784 10.0544 0 10.4941 0Z" fill="#0EB582"/>
+                    </svg>
+                </a>
+                <h2 class="font-bold text-[26px]/[31.2px] md:text-[32px]/[38.4px] xl:text-[32px]/[38.4px] text-[#333333] text-center mt-[18px]">Drumul tau spre succes</h2>
+            </div>
+            <!-- Start Success Content Section -->
+                <div class="container m-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-2 mt-[23px] md:mt-[69px] xl:mt-[69px]">
+                    <div class="flex items-center justify-center md:justify-start xl:justify-start">
+                        <img src="images/Andreea.png" alt="Picture">
+                    </div>
+                    <div class="mt-[30.32px] mx-[24px]">
+                        <div class="flex flex-row">
+                            <div class="mr-[20px]">
+                                <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.9167 0H18.0833V5.16667H12.9167V0ZM0 0H5.16667V5.16667H0V0ZM25.8333 0H31V5.16667H25.8333V0ZM12.9167 12.9167H18.0833V18.0833H12.9167V12.9167ZM0 12.9167H5.16667V18.0833H0V12.9167ZM25.8333 12.9167H31V18.0833H25.8333V12.9167ZM12.9167 25.8333H18.0833V31H12.9167V25.8333ZM0 25.8333H5.16667V31H0V25.8333ZM25.8333 25.8333H31V31H25.8333V25.8333Z" fill="#306FCC"/>
+                                </svg>
+                            </div>
+                            <div class="relative">
+                                <h5 class="absolute -top-4 font-bold text-lg/[21.6px] text-[#333333]">Lorem Ipsum Dolor Sit</h5>
+                                <p class="font-normal text-sm/[22.4px] text-[#333333] mt-[9px]">
+                                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. 
+                                    Mauris Non Massa Et Nisl Tincidunt Porta Eu Ac Est. 
+                                    Etiam Ac Velit Venenatis
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="flex flex-row my-[24px] md:my-[35px] xl:my-[35px]">
+                            <div class="mr-[20px]">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.1818 16.5455C14.1107 16.5455 15.9605 15.7792 17.3244 14.4153C18.6883 13.0514 19.4545 11.2016 19.4545 9.27273C19.4545 7.34388 18.6883 5.49403 17.3244 4.13013C15.9605 2.76623 14.1107 2 12.1818 2C10.253 2 8.40312 2.76623 7.03922 4.13013C5.67532 5.49403 4.90909 7.34388 4.90909 9.27273C4.90909 11.2016 5.67532 13.0514 7.03922 14.4153C8.40312 15.7792 10.253 16.5455 12.1818 16.5455ZM12.1818 16.5455C15.1098 16.5455 17.6684 17.6509 19.488 19.488C20.567 20.5816 21.3742 21.9134 21.8444 23.376M12.1818 16.5455C6.36364 16.5455 2 20.9091 2 26.7273V34H16.5455M18 27.9258L24.0945 32.5455L34 19.4545" stroke="#306FCC" stroke-width="4"/>
+                                </svg>
+                            </div>
+                            <div class="relative">
+                                <h5 class="absolute -top-4 font-bold text-lg/[21.6px] text-[#333333]">Lorem Ipsum Dolor Sit</h5>
+                                <p class="font-normal text-sm/[22.4px] text-[#333333] mt-[9px]">
+                                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. 
+                                    Mauris Non Massa Et Nisl Tincidunt Porta Eu Ac Est. 
+                                    Etiam Ac Velit Venenatis
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row">
+                            <div class="mr-[20px]">
+                                <svg width="38" height="32" viewBox="0 0 38 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0H38V32H0V0ZM3.45455 3.55556V28.4444H34.5455V3.55556H31.0909V15.1111L25.9091 11.1111L20.7273 15.1111V3.55556H3.45455ZM24.1818 3.55556V8L25.9091 6.66667L27.6364 8V3.55556H24.1818ZM6.90909 14.2222H17.2727V17.7778H6.90909V14.2222ZM6.90909 21.3333H31.0909V24.8889H6.90909V21.3333Z" fill="#306FCC"/>
+                                </svg>
+                            </div>
+                            <div class="relative">
+                                <h5 class="absolute -top-4 font-bold text-lg/[21.6px] text-[#333333]">Lorem Ipsum Dolor Sit</h5>
+                                <p class="font-normal text-sm/[22.4px] text-[#333333] mt-[9px]">
+                                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. 
+                                    Mauris Non Massa Et Nisl Tincidunt Porta Eu Ac Est. 
+                                    Etiam Ac Velit Venenatis
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row mt-[24px] md:mt-[35px] xl:mt-[35px]">
+                            <div class="mr-[20px]">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.8332 15.5834L16.4998 11.9167L12.8332 8.25004L9.1665 11.9167L12.8332 15.5834ZM3.6665 25.6667V1.83337H40.3332V25.6667H30.754C30.9373 25.0556 31.0596 24.4445 31.1207 23.8334C31.1818 23.2223 31.1818 22.6112 31.1207 22H36.6665V5.50004H7.33317V22H12.879C12.8179 22.6112 12.8179 23.2223 12.879 23.8334C12.9401 24.4445 13.0623 25.0556 13.2457 25.6667H3.6665ZM30.2498 12.8334C31.0137 12.8334 31.6633 12.5657 32.1987 12.0304C32.734 11.495 33.0011 10.846 32.9998 10.0834C32.9998 9.31948 32.7322 8.66987 32.1968 8.13454C31.6615 7.59921 31.0125 7.33215 30.2498 7.33337C29.4859 7.33337 28.8363 7.60104 28.301 8.13637C27.7657 8.67171 27.4986 9.32071 27.4998 10.0834C27.4998 10.8473 27.7675 11.4969 28.3028 12.0322C28.8382 12.5675 29.4872 12.8346 30.2498 12.8334ZM9.1665 42.1667V38.3167C9.1665 37.2473 9.46473 36.2542 10.0612 35.3375C10.6576 34.4209 11.4441 33.7334 12.4207 33.275C13.9179 32.5723 15.4762 32.0449 17.0957 31.6929C18.7151 31.3409 20.3498 31.1655 21.9998 31.1667C23.6498 31.1667 25.2846 31.3427 26.904 31.6947C28.5234 32.0467 30.0818 32.5735 31.579 33.275C32.5568 33.7334 33.3439 34.4209 33.9403 35.3375C34.5368 36.2542 34.8344 37.2473 34.8332 38.3167V42.1667H9.1665ZM12.8332 38.5H31.1665V38.3167C31.1665 37.95 31.0596 37.6139 30.8457 37.3084C30.6318 37.0028 30.3568 36.7737 30.0207 36.6209C28.7373 36.0403 27.4235 35.5973 26.079 35.2917C24.7346 34.9861 23.3748 34.8334 21.9998 34.8334C20.6248 34.8334 19.2651 34.9861 17.9207 35.2917C16.5762 35.5973 15.2623 36.0403 13.979 36.6209C13.6429 36.7737 13.3679 37.0028 13.154 37.3084C12.9401 37.6139 12.8332 37.95 12.8332 38.3167V38.5ZM21.9998 29.3334C20.2276 29.3334 18.7151 28.707 17.4623 27.4542C16.2096 26.2014 15.5832 24.6889 15.5832 22.9167C15.5832 21.1445 16.2096 19.632 17.4623 18.3792C18.7151 17.1264 20.2276 16.5 21.9998 16.5C23.7721 16.5 25.2846 17.1264 26.5373 18.3792C27.7901 19.632 28.4165 21.1445 28.4165 22.9167C28.4165 24.6889 27.7901 26.2014 26.5373 27.4542C25.2846 28.707 23.7721 29.3334 21.9998 29.3334ZM21.9998 25.6667C22.7637 25.6667 23.4133 25.399 23.9487 24.8637C24.484 24.3284 24.7511 23.6794 24.7498 22.9167C24.7498 22.1528 24.4822 21.5032 23.9468 20.9679C23.4115 20.4325 22.7625 20.1655 21.9998 20.1667C21.2359 20.1667 20.5863 20.4344 20.051 20.9697C19.5157 21.505 19.2486 22.154 19.2498 22.9167C19.2498 23.6806 19.5175 24.3302 20.0528 24.8655C20.5882 25.4009 21.2372 25.6679 21.9998 25.6667Z" fill="#306FCC"/>
+                                </svg>
+                            </div>
+                            <div class="relative">
+                                <h5 class="absolute -top-4 font-bold text-lg/[21.6px] text-[#333333]">Lorem Ipsum Dolor Sit</h5>
+                                <p class="font-normal text-sm/[22.4px] text-[#333333] mt-[9px]">
+                                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. 
+                                    Mauris Non Massa Et Nisl Tincidunt Porta Eu Ac Est. 
+                                    Etiam Ac Velit Venenatis
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- End Success Content Section -->
+        <!-- End Success Section -->
+
+        <!-- Start Contact Section -->
+            <div class="container m-auto flex flex-col md:flex-row xl:flex-row mt-[72px] md:mt-[138px] xl:mt-[138px] mb-[67px] md:mb-[100px] xl:mb-[100px]">
+                <div class="mb-10 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 text-center md:text-start xl:text-start">
+                    <h5 class="text-[#0EB582] font-semibold text-sm/[22.4px]">Descopera beneficiile cursului nostru</h5>
+                    <h2 class="font-bold text-[26px]/[31.2px] text-[#333333] md:text-[32px]/[38.4px] xl:text-[32px]/[38.4px] mt-[14px]">Creeaza acum un cont gratuit</h2>
+                    <p class="font-normal text-sm/[22.4px] md:text-base/[25.6px] xl:text-base/[25.6px] text-[#333333] mt-[18px] mx-5">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. 
+                        Mauris Non Massa Et Nisl Tincidunt Porta Eu Ac Est. 
+                        Etiam Ac Velit Venenatis, Ultricies Turpis Tristique, Commodo Ex. 
+                        Pellentesque Eget Pulvinar Lacus, Sed Commodo Tortor. 
+                        Nunc 
+                    </p>
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-lg/[21.78px] font-semibold text-center text-white rounded-full bg-[#306FCC] mt-[35px]">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2 -ms-1">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4C5 2.93913 5.42143 1.92172 6.17157 1.17157C6.92172 0.421427 7.93913 0 9 0C10.0609 0 11.0783 0.421427 11.8284 1.17157C12.5786 1.92172 13 2.93913 13 4C13 5.06087 12.5786 6.07828 11.8284 6.82843C11.0783 7.57857 10.0609 8 9 8C7.93913 8 6.92172 7.57857 6.17157 6.82843C5.42143 6.07828 5 5.06087 5 4ZM5 10C3.67392 10 2.40215 10.5268 1.46447 11.4645C0.526784 12.4021 0 13.6739 0 15C0 15.7956 0.316071 16.5587 0.87868 17.1213C1.44129 17.6839 2.20435 18 3 18H15C15.7956 18 16.5587 17.6839 17.1213 17.1213C17.6839 16.5587 18 15.7956 18 15C18 13.6739 17.4732 12.4021 16.5355 11.4645C15.5979 10.5268 14.3261 10 13 10H5Z" fill="white"/>
+                        </svg>
+                        Creeaza Cont
+                    </a>
+                </div>
+                <div class="w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6 text-center md:text-start xl:text-start">
+                    <h5 class="text-[#0EB582] font-semibold text-sm/[22.4px]">Ai nevoie de mai multe informatii?</h5>
+                    <h2 class="font-bold text-[26px]/[31.2px] text-[#333333] md:text-[32px]/[38.4px] xl:text-[32px]/[38.4px] mt-[14px] mb-[28px]">Contacteaza-ne</h2>
+                    <form class="mx-5 md:mx-0 xl:mx-0">
+                        <div class="relative mb-[21px]" data-te-input-wrapper-init>
+                            <input type="text" class="peer block min-h-[auto] w-full rounded-lg border-2 border-[#306FCC] bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" id="exampleInput90" placeholder="Name" />
+                            <label class="font-bold text-base/[25.6px] text-[#333333] pointer-events-none absolute top-0 left-5 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none" for="exampleInput90">Nume</label>
+                        </div>
+                        <div class="relative mb-[21px]" data-te-input-wrapper-init>
+                            <input type="email" class="peer block min-h-[auto] w-full rounded-lg border-2 border-[#306FCC] bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" id="exampleInput91" placeholder="Email address" />
+                            <label class="font-bold text-base/[25.6px] text-[#333333] pointer-events-none absolute top-0 left-5 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none" for="exampleInput91">Email</label>
+                        </div>
+                        <div class="relative mb-[21px]" data-te-input-wrapper-init>
+                            <textarea class="peer block min-h-[auto] w-full rounded-lg border-2 border-[#306FCC] bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
+                            <label for="exampleFormControlTextarea1" class="font-bold text-base/[25.6px] text-[#333333] pointer-events-none absolute top-0 left-5 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary">Message</label>
+                        </div>
+                        <div class="grid place-items-center md:place-items-end xl:place-items-end">
+                            <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-lg/[28.8px] font-semibold text-center font-['Open_Sans'] text-white rounded-full bg-[#306FCC] drop-shadow-[0_4px_5px_rgba(0,115,230,0.2)] md:w-[314px] xl:w-[314px]">
+                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2 -ms-1">
+                                    <path d="M20 2C20 0.9 19.1 0 18 0H2C0.9 0 0 0.9 0 2V14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2ZM18 2L10 7L2 2H18ZM18 14H2V4L10 9L18 4V14Z" fill="white"/>
+                                </svg>
+                                Trimite
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        <!-- End Contact Section -->
+
+        <!-- Start Footer -->
+            <footer class="bg-[#273C66]">
+                <div class="w-full p-4">
+                    <div class="flex flex-wrap items-center justify-center md:justify-between xl:justify-between p-4">
+                        <a href="#" class="mb-4">
+                            <img src="images/Profesor-in-online-alb.png" class="h-8" alt="Footer Logo" />
+                        </a>
+                        <span class="block text-sm text-white text-center">© 2024, Profesor în online. Toate drepturile rezervate</span>
+                    </div>
+                </div>
+            </footer>
+        <!-- End Footer -->
+
+        <!-- Start Script -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+        <!-- End Script -->
+    </body>
+</html>
